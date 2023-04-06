@@ -1,31 +1,7 @@
-/* body{
-background-image: url("/assets/images/p1banner.png");
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- background-attachment: fixed;
- height:100vh;
-
-
-} */
-
-.masthead{
-    background-size: cover;
-    min-height:90vh; 
- 
+#nav{
+    position:absolute;
+    top:0px;
 }
-/* 
-@media(max-width:768px){
-    .masthead{
-        min-height:60vh;
-    }
-} */
-
-/* @media(max-width:425px){
-    .masthead{
-        min-height:35vh;
-    }
-} */
  
 
 .nav-item{
@@ -76,8 +52,8 @@ margin-left: 10px;
 #p2script{
 
 font-size: 30px;
-padding-top:30px;
-padding-bottom:30px;
+padding-top:60px;
+padding-bottom:40px;
 text-transform: uppercase;
 color: #5c5c5c;
 font-weight: 700;
@@ -86,15 +62,21 @@ text-align: center;
 
 }
 .card{
+    position:relative;
     background-color: #a9b33c48;
-  
 }
+
 .card-text{
-top:10px;
-font-size: 15px;
+
 color: #404142;
 font-weight: 700;
 font-family: "Quicksand";
-text-align: center;
+font-size: 18px;
+line-height: 25px;
+
 }
 
+
+.card-img{
+padding:50px;   
+}

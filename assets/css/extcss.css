@@ -62,7 +62,7 @@ text-align: center;
 
 }
 .card{
-    position:relative;
+   
     background-color: #a9b33c48;
 }
 
@@ -80,3 +80,152 @@ line-height: 25px;
 .card-img{
 padding:50px;   
 }
+
+#p4heading{
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    padding-top:60px;
+padding-bottom:40px;
+}
+
+#p4para{
+
+font-size: 15px;
+line-height: 35px;
+color: #404142;
+font-weight: 500;
+font-family: "Quicksand";
+    
+}
+
+#p4info{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+#page5{
+   background-color: #a9b33c46;
+   padding:50px;
+   
+    
+}
+
+#p5heading{
+
+    font-size: 50px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+#p5para{
+padding-top:30px;
+width: 646px;
+height: 202px;
+font-size: 14px;
+line-height: 24px;
+color: #404142;
+font-weight: 500;
+font-family: "Quicksand";
+}
+
+#p5para2{
+font-size: 14px;
+line-height: 24px;
+color: #404142;
+font-weight: 500;
+font-family: "Quicksand";
+text-align: left;
+
+}
+
+
+#page6{
+    padding:50px;
+}
+
+tr,td,th{
+    border:none;
+}
+
+tr{
+    height:50px;   
+}
+
+td{
+    align-content: center;
+    box-shadow: -8px 0 8px -8px rgba(0, 0, 0, 0.5);
+}
+
+
+#col1{
+    font-size: 40px;
+    line-height:20px;
+    color: #ffffff;
+    font-family: "Quicksand";
+    text-align:justify  ;
+
+}
+
+#col2{
+    font-size: 25px;
+    line-height:20px;
+    color: #ffffff;
+    box-shadow: -8px 0 8px -8px rgba(0, 0, 0, 0.5);
+    
+    font-family: "Quicksand";
+    text-align: left;
+
+}
+
+#col3{
+    font-size: 25px;
+    line-height:20px;
+    color: #ffffff;
+    box-shadow: -8px 0 8px -8px rgba(0, 0, 0, 0.5);
+   
+    font-family: "Quicksand";
+
+}
+
+.colnames{
+    background-color:rgb(169, 179, 59);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.507);
+    
+}
+
+  #r2c1{
+    color:white;
+    background:rgb(169, 179, 59);
+    font-family: "Quicksand";
+    
+  }
+tr:nth-child(2) {
+    background:rgba(170,179,59,0.3);
+  }
+
+  tr:nth-child(4) {
+    background:rgba(170,179,59,0.3);;
+  }
+
+  tr:nth-child(6) {
+    background:rgba(170,179,59,0.3);;
+  }
+
+  td:nth-child(3){
+    box-shadow: -8px 0 8px -8px rgba(0, 0, 0, 0.5);
+  }
+
+  td:nth-child(4){
+    box-shadow: -8px 0 8px -8px rgba(0, 0, 0, 0.5);
+  }
+
+  #p7heading{
+    position:relative;
+    top:-90px;  
+    text-align: center;
+  }
